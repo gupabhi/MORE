@@ -15,27 +15,20 @@
     <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="../structured_database/DataTables/datatables.css">
+	<link rel="stylesheet" type="text/css" href="../DataTables/datatables.css">
     <!--===============================================================================================-->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+    <script src="js/jquery.min.js"> </script>
+    <script src="js/main.js"></script>
+	<script src="js/w3.js"></script>
     <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
     <script src="vendor/bootstrap/js/popper.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="vendor/select2/select2.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://www.w3schools.com/lib/w3.js"></script>
-	<script type="text/javascript" charset="utf8" src="../structured_database/DataTables/datatables.js"></script>
+	<script type="text/javascript" charset="utf8" src="../DataTables/datatables.js"></script>
     <!--===============================================================================================-->
     <!-- call data table -->
     <script>
-		$(function() {
-			$.getJSON('data/2020_04_22_structured_dataset.json', function(data) {
-
-				display_json(data, "DMel_Behaviour", "#DMel_Behaviour");
-
-				});
-			});
+		$(function() {load_table("DMel_Behaviour", "#DMel_Behaviour"); });
 	</script>
 
 </head>
@@ -45,53 +38,24 @@
 	<!-- Navigation bar -->
 	<div class="topnav">
 		<a href="index.html"> Home </a>
-		<div class="subnav">
-			<button class="subnavbtn">Behavior <i class="fa fa-caret-down"></i></button>
-			<div class="subnav-content">
-			  <a href="behavior_mos_PI.html">Mosquito Preference Index</a>
-			  <a href="behavior_dmel_PI.html">Drosophila Preference Index</a>
-			  <a href="behavior_mos_OI.html">Mosquito Oviposition Index</a>
-			  <a href="behavior_dmel_OI.html">Drosophila Oviposition Index</a>
-			</div>
-		</div> 
-
-		<a href="ssr_mos.html">Single Sensillum Recording</a>
-		<a href="eag_mos.html">Electroantennography</a>
-
-		<div class="subnav">
-			<button class="subnavbtn">Odorant Receptor <i class="fa fa-caret-down"></i></button>
-			<div class="subnav-content">
-			  <a href="or_mos_spike.html">Mosquito Spike</a>
-			  <a href="or_mos_current.html">Mosquito Current</a>
-			  <a href="or_dmel_spike.html">Drosophila Spike</a>
-			</div>
-		</div> 
+		<div id="navbar"> </div>
+		<script> $(function(){ $("#navbar").load("navigation_bar.html");}); </script>
 
 	</div>
-	
+
 	<br><br>
 
-	<div id="loader"></div>
+	<!-- add Loader while loading the data -->
+	<div id="loader"></div> 
 
-    <div class="limiter" id="myDiv" style="display:none;">
+	<!-- main data table -->
+	<div class="container_table" id="myDiv" style="display:none;">
+		<table id="DMel_Behaviour" class="display" > 
+			<thead> </thead>
 
-		<!-- DMel Positional data -->
-		<div id="dmel_positional" class="container-table100">
-			<div class="wrap-table100">
-				<div class="table100">
-
-					<table id="DMel_Behaviour" class="display">
-						<thead>
-						</thead>
-
-						<tbody> </tbody>
-
-					</table>
-
-				</div>
-			</div>
-		</div>
-
+			<tbody>	 </tbody>
+			
+		</table>
     </div>
 
 </body>

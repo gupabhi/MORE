@@ -17,58 +17,39 @@
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!--===============================================================================================-->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-	<script src="vendor/select2/select2.min.js"></script>
-	<script src="js/main.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="js/jquery.min.js"> </script>
+    <script src="js/main.js"></script>
+	<script src="js/w3.js"></script>
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/select2/select2.min.js"></script>
+	<script type="text/javascript" charset="utf8" src="../DataTables/datatables.js"></script>
 	<!--===============================================================================================-->
-
 </head>
 
 <body>
 
 	<!-- Navigation bar -->
 	<div class="topnav">
-
 		<a href="#home"> Home </a>
-
-		<div class="subnav">
-			<button class="subnavbtn">Behavior <i class="fa fa-caret-down"></i></button>
-			<div class="subnav-content">
-			  <a href="behavior_mos_PI.html">Mosquito Preference Index</a>
-			  <a href="behavior_dmel_PI.html">Drosophila Preference Index</a>
-			  <a href="behavior_mos_OI.html">Mosquito Oviposition Index</a>
-			  <a href="behavior_dmel_OI.html">Drosophila Oviposition Index</a>
-			</div>
-		</div> 
-
-		<a href="ssr_mos.html">Single Sensillum Recording</a>
-		<a href="eag_mos.html">Electroantennography</a>
-
-		<div class="subnav">
-			<button class="subnavbtn">Odorant Receptor <i class="fa fa-caret-down"></i></button>
-			<div class="subnav-content">
-			  <a href="or_mos_spike.html">Mosquito Spike</a>
-			  <a href="or_mos_current.html">Mosquito Current</a>
-			  <a href="or_dmel_spike.html">Drosophila Spike</a>
-			</div>
-		</div> 
-
+		<div id="navbar"> </div>
+		<script> $(function(){ $("#navbar").load("navigation_bar.html");}); </script>
 	</div>
 
-	<div class="limiter">
-		<div id="home" class="container-table100">
+	<div class="container-homebox">
+		<div id="home" class="container-home">
 			<p class="text">MORE: Mosquito Olfactory Response Ensemble</p>
-			
+			<br>
 			<button class="downloadBtn" onclick="window.open('data/2020_03_23_structured_dataset.xlsx')" 
-					style="width:100%"><i class="fa fa-download"> </i> Download Dataset</button>
+					style="width:60%"><i class="fa fa-download"> </i> Download Full Dataset</button>
 
 		</div>
+	</div>
 
+	<div class="footer">
+		<a href="https://sites.google.com/site/labofneuralsystems/" style="color:rgb(154, 195, 255)">
+			Lab of Neural Systems, Indian Institute of Technology, Kanpur, India</a>
 	</div>
 
 </body>

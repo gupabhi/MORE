@@ -1,0 +1,6 @@
+# link to instructions -https://github.com/DiegoZoracKy/convert-excel-to-json
+1) First, install convert-excel-to-json
+2) run command "npm install -g convert-excel-to-json"
+3) convert-excel-to-json --sourceFile="data/2020_04_22_structured_dataset.xlsx" > "data/2020_04_22_structured_dataset.json"
+
+

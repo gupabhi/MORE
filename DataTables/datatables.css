@@ -289,10 +289,12 @@ table.dataTable td {
 }
 .dataTables_wrapper .dataTables_filter {
   float: right;
-  text-align: right;
+  text-align: center;
+
 }
 .dataTables_wrapper .dataTables_filter input {
   margin-left: 0.5em;
+  background-color: #f8f5f5;
 }
 .dataTables_wrapper .dataTables_info {
   clear: both;
@@ -668,8 +670,9 @@ a.dt-button:focus:not(.disabled) {
 }
 
 div.dt-buttons {
-  position: relative;
-  float: left;
+  float:none;  
+  text-align:center;
+  padding-top: 5px;
 }
 div.dt-buttons.buttons-right {
   float: right;
