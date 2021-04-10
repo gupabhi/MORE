@@ -294,7 +294,7 @@ table.dataTable td {
 }
 .dataTables_wrapper .dataTables_filter input {
   margin-left: 0.5em;
-  background-color: #f8f5f5;
+  background-color: #d3cece;
 }
 .dataTables_wrapper .dataTables_info {
   clear: both;

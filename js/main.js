@@ -105,10 +105,13 @@ function load_table(field_name, table_id){
         //  create table object
         var dt  = $(table_id).DataTable(
             {
-                "scrollY": '50vh',
+                // "scrollY": '50vh',
                 "scrollCollapse": true,
                 "buttons": [{extend: 'excel', text: 'Download filtered data'}],
                 "searching": true,
+                "oLanguage": {
+                    "sSearch": "Search/ Filter"
+                  },
                 "responsive": true,
                 "autoWidth": true,
                 "dom": 'lfrtipB', 
