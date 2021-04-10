@@ -170,7 +170,7 @@ tr.shown td.details-control {
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 12px 14px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -189,7 +189,7 @@ tr.shown td.details-control {
   z-index: 1;
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s, opacity 0s linear;
+  transition: visibility 0s, opacity 0s ease-out;
 }
 
 .subnav-content a {
