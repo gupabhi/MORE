@@ -84,7 +84,7 @@ function load_table(field_name, table_id){
         }];
 
         // Read and display data
-        cols_to_display = ["odor", "concentration", "concentration_type", "species", "gender", "assay",
+        cols_to_display = ["odor", "concentration", "species", "assay",
                             "response", "or", "location", "sensillum", "preparation_type", 
                             "reference"];
 
@@ -112,8 +112,8 @@ function load_table(field_name, table_id){
                 "oLanguage": {
                     "sSearch": "Search/ Filter"
                   },
-                "responsive": true,
-                "autoWidth": true,
+                "responsive": false,
+                "autoWidth": false,
                 "dom": 'lfrtipB', 
                 "columns": columns_obj,
                 "order": [[1, 'asc']],
