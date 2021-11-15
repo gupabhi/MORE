@@ -134,7 +134,7 @@ function load_table(field_name, table_id){
             }
             else {
                 // Open this row
-                row.child(format(data, sheet_data[1], cols_to_display, sheet_data[row.index()])).show();
+                row.child(format(data, sheet_data[1], cols_to_display, sheet_data[row.index()+ 2])).show();
                 tr.addClass('shown');
             }
         } );
