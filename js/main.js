@@ -2,6 +2,7 @@
 function format(data, header, cols_to_display, row_data) {
 
     var references = data['References'];
+    var references_with_link = data['References_with_link'];
 
     // put header and row_data on the extended table
     var objHeader = header;
@@ -20,6 +21,15 @@ function format(data, header, cols_to_display, row_data) {
                 if (references[i]['B'] == ref_code){
                     out += '<tr>' + '<td>' + '<span style="font-weight:bold">' + 'Detailed Reference' + '</span>' + 
                         '</td>' + '<td>' + references[i]['C'] + '</td>' + '</tr>';
+                }
+            }
+            for (var j = 1; j<references_with_link.length; j++){
+                if (references_with_link[j]['B'] == ref_code){
+                    out += '<tr>' + '<td>' + '<span style="font-weight:bold">' + 'Reference Link' + '</span>' + 
+                        '</td>' + '<td>' + references_with_link[j]['D'] + '</td>' + '</tr>';
+
+                    out += '<tr>' + '<td>' + '<span style="font-weight:bold">' + 'Pubmed ID' + '</span>' + 
+                        '</td>' + '<td>' + references_with_link[j]['C'] + '</td>' + '</tr>';
                 }
             }
         }
@@ -127,7 +137,7 @@ function load_table(field_name, table_id){
             var tr = $(this).closest('tr');
             var row = dt.row( tr );
     
-            if ( row.child.isShown() ) {
+            if (row.child.isShown() ) {
                 // This row is already open - close it
                 row.child.hide();
                 tr.removeClass('shown');
