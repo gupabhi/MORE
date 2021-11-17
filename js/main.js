@@ -26,7 +26,7 @@ function format(data, header, cols_to_display, row_data) {
             for (var j = 1; j<references_with_link.length; j++){
                 if (references_with_link[j]['B'] == ref_code){
                     out += '<tr>' + '<td>' + '<span style="font-weight:bold">' + 'Reference Link' + '</span>' + 
-                        '</td>' + '<td>' + references_with_link[j]['D'] + '</td>' + '</tr>';
+                        '</td>' + '<td>' + '<a href="' + references_with_link[j]['D'] + '">' +  references_with_link[j]['D'] + '</a>'  + '</td>' + '</tr>';
 
                     out += '<tr>' + '<td>' + '<span style="font-weight:bold">' + 'Pubmed ID' + '</span>' + 
                         '</td>' + '<td>' + references_with_link[j]['C'] + '</td>' + '</tr>';
