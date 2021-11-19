@@ -12,19 +12,27 @@ function format(data, header, cols_to_display, row_data) {
 
         col = String.fromCharCode(97 + h).toUpperCase();
         if (cols_to_display.indexOf(objHeader[col]) == -1){
+
+            if ((objHeader[col] == 'remarks') && (typeof(objRow[col]) == 'undefined')){
+                objRow[col] = 'N/A';
+            }
+
             out +=  '<tr>' + '<td>' + '<span style="font-weight:bold">' + objHeader[col] + '</span>' + 
                 '</td>' + '<td>' + objRow[col] + '</td>' + '</tr>';
+
         }
+
         if (objHeader[col] == 'reference'){
             ref_code = objRow[col];
+
             for (var i = 1; i<references.length; i++){
-                if (references[i]['B'] == ref_code){
+                if (references[i]['B'].toLowerCase() == ref_code.toLowerCase()){
                     out += '<tr>' + '<td>' + '<span style="font-weight:bold">' + 'Detailed Reference' + '</span>' + 
                         '</td>' + '<td>' + references[i]['C'] + '</td>' + '</tr>';
                 }
             }
             for (var j = 1; j<references_with_link.length; j++){
-                if (references_with_link[j]['B'] == ref_code){
+                if (references_with_link[j]['B'].toLowerCase() == ref_code.toLowerCase()){
                     out += '<tr>' + '<td>' + '<span style="font-weight:bold">' + 'Reference Link' + '</span>' + 
                         '</td>' + '<td>' + '<a href="' + references_with_link[j]['D'] + '">' +  references_with_link[j]['D'] + '</a>'  + '</td>' + '</tr>';
 
@@ -33,6 +41,7 @@ function format(data, header, cols_to_display, row_data) {
                 }
             }
         }
+
     }
     out += '</table>';
     return out;
