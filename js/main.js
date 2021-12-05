@@ -90,7 +90,7 @@ function add_tableBody(sheet_data, table_id, column_name){
 // Display Json from Excel
 function load_table(field_name, table_id){
 
-    var file_location = 'data/2021_11_26_structured_dataset.json';
+    var file_location = 'data/2021_12_04_structured_dataset.json';
     $.getJSON(file_location, function(data) {
 
         // Initialize variables
