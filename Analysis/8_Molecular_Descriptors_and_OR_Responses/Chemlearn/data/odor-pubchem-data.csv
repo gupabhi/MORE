@@ -1,0 +1,113 @@
+odor_sheet_name#odor_pubchem_name#cid#iupac_name#isomeric_smiles#atom_stereo_count#bond_stereo_count#complexity#covalent_unit_count#defined_atom_stereo_count#defined_bond_stereo_count#exact_mass#h_bond_acceptor_count#h_bond_donor_count#heavy_atom_count#molecular_weight#monoisotopic_mass#rotatable_bond_count#tpsa#undefined_atom_stereo_count#xlogp
+ammonia#ammonia#222#azane#N#0#0#0#1#0#0#17.026549100#1#1#1#17.031#17.026549100#0#1#0#-0.7
+putrescine#putrescine#1045#butane-1,4-diamine#C(CCN)CN#0#0#17.5#1#0#0#88.100048391#2#2#6#88.15#88.100048391#3#52#0#-0.9
+cadaverine#cadaverine#273#pentane-1,5-diamine#C(CCN)CCN#0#0#25.3#1#0#0#102.115698455#2#2#7#102.18#102.115698455#4#52#0#-0.6
+g-decalactone#gamma-decalactone#12813#5-hexyloxolan-2-one#CCCCCCC1CCC(=O)O1#1#0#143#1#0#0#170.130679813#2#0#12#170.25#170.130679813#5#26.3#1#2.7
+d-decalactone#d-decalactone#12810#6-pentyloxan-2-one#CCCCCC1CCCC(=O)O1#1#0#143#1#0#0#170.130679813#2#0#12#170.25#170.130679813#4#26.3#1#2.5
+Acetic Acid#Acetic Acid#176#acetic acid#CC(=O)O#0#0#31#1#0#0#60.021129366#2#1#4#60.05#60.021129366#0#37.3#0#-0.2
+propanoic acid#propanoic acid#1032#propanoic acid#CCC(=O)O#0#0#40.2#1#0#0#74.036779430#2#1#5#74.08#74.036779430#1#37.3#0#0.3
+butanoic acid#butanoic acid#264#butanoic acid#CCCC(=O)O#0#0#49.5#1#0#0#88.052429494#2#1#6#88.11#88.052429494#2#37.3#0#0.8
+pentanoic acid#pentanoic acid#7991#pentanoic acid#CCCCC(=O)O#0#0#59.1#1#0#0#102.068079557#2#1#7#102.13#102.068079557#3#37.3#0#1.4
+Hexanoic acid#Hexanoic acid#8892#hexanoic acid#CCCCCC(=O)O#0#0#68.9#1#0#0#116.083729621#2#1#8#116.16#116.083729621#4#37.3#0#1.9
+heptanoic acid#heptanoic acid#8094#heptanoic acid#CCCCCCC(=O)O#0#0#79#1#0#0#130.099379685#2#1#9#130.18#130.099379685#5#37.3#0#2.5
+octanoic acid#octanoic acid#379#octanoic acid#CCCCCCCC(=O)O#0#0#89.3#1#0#0#144.115029749#2#1#10#144.21#144.115029749#6#37.3#0#3
+nonanoic acid#nonanoic acid#8158#nonanoic acid#CCCCCCCCC(=O)O#0#0#99.7#1#0#0#158.130679813#2#1#11#158.24#158.130679813#7#37.3#0#3.5
+decanoic acid#decanoic acid#2969#decanoic acid#CCCCCCCCCC(=O)O#0#0#110#1#0#0#172.146329876#2#1#12#172.26#172.146329876#8#37.3#0#4.1
+dodecanoic acid#dodecanoic acid#3893#dodecanoic acid#CCCCCCCCCCCC(=O)O#0#0#132#1#0#0#200.177630004#2#1#14#200.32#200.177630004#10#37.3#0#4.2
+tridecanoic acid#tridecanoic acid#12530#tridecanoic acid#CCCCCCCCCCCCC(=O)O#0#0#144#1#0#0#214.193280068#2#1#15#214.34#214.193280068#11#37.3#0#4.7
+Myristic Acid#Myristic Acid#11005#tetradecanoic acid#CCCCCCCCCCCCCC(=O)O#0#0#155#1#0#0#228.208930132#2#1#16#228.37#228.208930132#12#37.3#0#5.3
+hexadecanoic acid#hexadecanoic acid#985#hexadecanoic acid#CCCCCCCCCCCCCCCC(=O)O#0#0#178#1#0#0#256.240230259#2#1#18#256.42#256.240230259#14#37.3#0#6.4
+octadecanoic acid#octadecanoic acid#5281#octadecanoic acid#CCCCCCCCCCCCCCCCCC(=O)O#0#0#202#1#0#0#284.271530387#2#1#20#284.5#284.271530387#16#37.3#0#7.4
+L-(+)-Lactic acid#L-(+)-Lactic acid#107689#(2S)-2-hydroxypropanoic acid#C[C@@H](C(=O)O)O#1#0#59.1#1#1#0#90.031694049#3#2#6#90.08#90.031694049#1#57.5#0#-0.7
+2-oxopropanoic acid#2-oxopropanoic acid#1060#2-oxopropanoic acid#CC(=O)C(=O)O#0#0#84#1#0#0#88.016043985#3#1#6#88.06#88.016043985#1#54.4#0#-0.3
+isobutanoic acid#isobutanoic acid#6590#2-methylpropanoic acid#CC(C)C(=O)O#0#0#56.6#1#0#0#88.052429494#2#1#6#88.11#88.052429494#1#37.3#0#0.8
+2-oxobutanoic acid#2-oxobutanoic acid#58#2-oxobutanoic acid#CCC(=O)C(=O)O#0#0#95.1#1#0#0#102.031694049#3#1#7#102.09#102.031694049#2#54.4#0#0.1
+3-Methylbutanoic acid#3-Methylbutanoic acid#10430#3-methylbutanoic acid#CC(C)CC(=O)O#0#0#66.5#1#0#0#102.068079557#2#1#7#102.13#102.068079557#2#37.3#0#1.2
+2-oxopentanoic acid#2-oxopentanoic acid#74563#2-oxopentanoic acid#CCCC(=O)C(=O)O#0#0#106#1#0#0#116.047344113#3#1#8#116.11#116.047344113#3#54.4#0#0.5
+2-oxohexanoic acid#2-oxohexanoic acid#159664#2-oxohexanoic acid#CCCCC(=O)C(=O)O#0#0#118#1#0#0#130.062994177#3#1#9#130.14#130.062994177#4#54.4#0#1
+3-Methyl-2-hexenoic acid#3-Methyl-2-hexenoic acid#6443739#(E)-3-methylhex-2-enoic acid#CCC/C(=C/C(=O)O)/C#0#1#125#1#0#1#128.083729621#2#1#9#128.17#128.083729621#3#37.3#0#2.2
+7-octenoic acid#7-octenoic acid#543977#oct-7-enoic acid#C=CCCCCCC(=O)O#0#0#108#1#0#0#142.099379685#2#1#10#142.20#142.099379685#6#37.3#0#2.2
+cis-9-octadecenoic acid#cis-9-octadecenoic acid#445639#(Z)-octadec-9-enoic acid#CCCCCCCC/C=C\CCCCCCCC(=O)O#0#1#234#1#0#1#282.255880323#2#1#20#282.5#282.255880323#15#37.3#0#6.5
+dimethyl sulfide#dimethyl sulfide#1068#methylsulfanylmethane#CSC#0#0#2.8#1#0#0#62.01902136#1#0#3#62.14#62.01902136#0#25.3#0#0.9
+(-)-carvone#(-)-carvone#439570#(5R)-2-methyl-5-prop-1-en-2-ylcyclohex-2-en-1-one#CC1=CC[C@H](CC1=O)C(=C)C#1#0#223#1#1#0#150.104465066#1#0#11#150.22#150.104465066#1#17.1#0#2.4
+(+)-carvone#(+)-carvone#16724#(5S)-2-methyl-5-prop-1-en-2-ylcyclohex-2-en-1-one#CC1=CC[C@@H](CC1=O)C(=C)C#1#0#223#1#1#0#150.104465066#1#0#11#150.22#150.104465066#1#17.1#0#2.4
+(-)-fenchone#(-)-fenchone#82229#(1R,4S)-1,3,3-trimethylbicyclo[2.2.1]heptan-2-one#C[C@@]12CC[C@@H](C1)C(C2=O)(C)C#2#0#217#1#2#0#152.120115130#1#0#11#152.23#152.120115130#0#17.1#0#2.3
+(+)-fenchone#(+)-fenchone#1201521#(1S,4R)-1,3,3-trimethylbicyclo[2.2.1]heptan-2-one#C[C@]12CC[C@H](C1)C(C2=O)(C)C#2#0#217#1#2#0#152.120115130#1#0#11#152.23#152.120115130#0#17.1#0#2.3
+citronellal#citronellal#7794#3,7-dimethyloct-6-enal#CC(CCC=C(C)C)CC=O#1#0#132#1#0#0#154.135765193#1#0#11#154.25#154.135765193#5#17.1#1#3
+geraniol#geraniol#637566#(2E)-3,7-dimethylocta-2,6-dien-1-ol#CC(=CCC/C(=C/CO)/C)C#0#1#150#1#0#1#154.135765193#1#1#11#154.25#154.135765193#4#20.2#0#2.9
+Linalool Oxide#linalyl oxide#22310#2-(5-ethenyl-5-methyloxolan-2-yl)propan-2-ol#CC1(CCC(O1)C(C)(C)O)C=C#2#0#186#1#0#0#170.130679813#2#1#12#170.25#170.130679813#2#29.5#2#1.4
+geranyl acetate#geranyl acetate#1549026#[(2E)-3,7-dimethylocta-2,6-dienyl] acetate#CC(=CCC/C(=C/COC(=O)C)/C)C#0#1#233#1#0#1#196.146329876#2#0#14#196.29#196.146329876#6#26.3#0#3.5
+hexanal#hexanal#6184#hexanal#CCCCCC=O#0#0#41.4#1#0#0#100.088815002#1#0#7#100.16#100.088815002#4#17.1#0#1.8
+heptanal#heptanal#8130#heptanal#CCCCCCC=O#0#0#50.3#1#0#0#114.104465066#1#0#8#114.19#114.104465066#5#17.1#0#2.3
+octanal#octanal#454#octanal#CCCCCCCC=O#0#0#59.6#1#0#0#128.120115130#1#0#9#128.21#128.120115130#6#17.1#0#2.7
+nonanal#nonanal#31289#nonanal#CCCCCCCCC=O#0#0#69.1#1#0#0#142.135765193#1#0#10#142.24#142.135765193#7#17.1#0#3.3
+decanal#decanal#8175#decanal#CCCCCCCCCC=O#0#0#78.9#1#0#0#156.151415257#1#0#11#156.26#156.151415257#8#17.1#0#3.8
+(E)-2-hexenal#(E)-2-hexenal#5281168#(E)-hex-2-enal#CCC/C=C/C=O#0#1#64.6#1#0#1#98.073164938#1#0#7#98.14#98.073164938#3#17.1#0#1.5
+acetone#acetone#180#propan-2-one#CC(=O)C#0#0#26.3#1#0#0#58.041864811#1#0#4#58.08#58.041864811#0#17.1#0#-0.1
+2-butanone#2-butanone#6569#butan-2-one#CCC(=O)C#0#0#38.9#1#0#0#72.057514874#1#0#5#72.11#72.057514874#1#17.1#0#0.3
+2-heptanone#2-heptanone#8051#heptan-2-one#CCCCCC(=O)C#0#0#66.8#1#0#0#114.104465066#1#0#8#114.19#114.104465066#4#17.1#0#2
+3-octanone#3-octanone#246728#octan-3-one#CCCCCC(=O)CC#0#0#76.6#1#0#0#128.120115130#1#0#9#128.21#128.120115130#5#17.1#0#2.3
+2-nonanone#2-nonanone#13187#nonan-2-one#CCCCCCCC(=O)C#0#0#86.7#1#0#0#142.135765193#1#0#10#142.24#142.135765193#6#17.1#0#3.1
+6-methyl-5-hepten-2-one#6-methyl-5-hepten-2-one#9862#6-methylhept-5-en-2-one#CC(=CCCC(=O)C)C#0#0#119#1#0#0#126.104465066#1#0#9#126.20#126.104465066#3#17.1#0#1.9
+geranyl acetone#geranyl acetone#1549778#(5E)-6,10-dimethylundeca-5,9-dien-2-one#CC(=CCC/C(=C/CCC(=O)C)/C)C#0#1#230#1#0#1#194.167065321#1#0#14#194.31#194.167065321#6#17.1#0#3.7
+2,3-butanedione#2,3-butanedione#650#butane-2,3-dione#CC(=O)C(=O)C#0#0#71.5#1#0#0#86.036779430#2#0#6#86.09#86.036779430#1#34.1#0#-1.3
+cyclohexanone#cyclohexanone#7967#cyclohexanone#C1CCC(=O)CC1#0#0#68.2#1#0#0#98.073164938#1#0#7#98.14#98.073164938#0#17.1#0#0.8
+phenol#phenol#996#phenol#C1=CC=C(C=C1)O#0#0#46.1#1#0#0#94.041864811#1#1#7#94.11#94.041864811#0#20.2#0#1.5
+benzaldehyde#benzaldehyde#240#benzaldehyde#C1=CC=C(C=C1)C=O#0#0#72.5#1#0#0#106.041864811#1#0#8#106.12#106.041864811#1#17.1#0#1.5
+acetophenone#acetophenone#7410#1-phenylethanone#CC(=O)C1=CC=CC=C1#0#0#101#1#0#0#120.057514874#1#0#9#120.15#120.057514874#1#17.1#0#1.6
+methyl benzoate#methyl benzoate#7150#methyl benzoate#COC(=O)C1=CC=CC=C1#0#0#114#1#0#0#136.052429494#2#0#10#136.15#136.052429494#2#26.3#0#2.1
+2-phenoxy ethanol#2-phenoxy ethanol#31236#2-phenoxyethanol#C1=CC=C(C=C1)OCCO#0#0#77.3#1#0#0#138.068079557#2#1#10#138.16#138.068079557#3#29.5#0#1.2
+benzyl acetate#benzyl acetate#8785#benzyl acetate#CC(=O)OCC1=CC=CC=C1#0#0#126#1#0#0#150.068079557#2#0#11#150.17#150.068079557#3#26.3#0#2
+phenethyl acetate#phenethyl acetate#7654#2-phenylethyl acetate#CC(=O)OCCC1=CC=CC=C1#0#0#137#1#0#0#164.083729621#2#0#12#164.20#164.083729621#4#26.3#0#2.3
+2-methylphenol#2-methylphenol#335#2-methylphenol#CC1=CC=CC=C1O#0#0#70.8#1#0#0#108.057514874#1#1#8#108.14#108.057514874#0#20.2#0#2
+3-methylphenol#3-methylphenol#342#3-methylphenol#CC1=CC(=CC=C1)O#0#0#70.8#1#0#0#108.057514874#1#1#8#108.14#108.057514874#0#20.2#0#2
+p-cresol#p-cresol#2879#4-methylphenol#CC1=CC=C(C=C1)O#0#0#62.8#1#0#0#108.057514874#1#1#8#108.14#108.057514874#0#20.2#0#1.9
+2-ethylphenol#2-ethylphenol#6997#2-ethylphenol#CCC1=CC=CC=C1O#0#0#80.6#1#0#0#122.073164938#1#1#9#122.16#122.073164938#1#20.2#0#2.5
+4-ethylphenol#4-ethylphenol#31242#4-ethylphenol#CCC1=CC=C(C=C1)O#0#0#72.6#1#0#0#122.073164938#1#1#9#122.16#122.073164938#1#20.2#0#2.6
+2-propylphenol#2-propylphenol#12570#2-propylphenol#CCCC1=CC=CC=C1O#0#0#90.7#1#0#0#136.088815002#1#1#10#136.19#136.088815002#2#20.2#0#2.9
+methyl salicylate#methyl salicylate#4133#methyl 2-hydroxybenzoate#COC(=O)C1=CC=CC=C1O#0#0#144#1#0#0#152.047344113#3#1#11#152.15#152.047344113#2#46.5#0#2.3
+methyl-2-methyl benzoate#methyl-2-methylbenzoate#33094#methyl 2-methylbenzoate#CC1=CC=CC=C1C(=O)OC#0#0#143#1#0#0#150.068079557#2#0#11#150.17#150.068079557#2#26.3#0#2.8
+2-ethyl-toluene#2-ethyltoluene#11903#1-ethyl-2-methylbenzene#CCC1=CC=CC=C1C#0#0#76.1#1#0#0#120.093900383#0#0#9#120.19#120.093900383#1#0#0#3.5
+indole#indole#798#1H-indole#C1=CC=C2C(=C1)C=CN2#0#0#101#1#0#0#117.057849228#0#1#9#117.15#117.057849228#0#15.8#0#2.1
+3-methyl indole#3-methyl indole#6736#3-methyl-1H-indole#CC1=CNC2=CC=CC=C12#0#0#122#1#0#0#131.073499291#0#1#10#131.17#131.073499291#0#15.8#0#2.6
+2-acetylthiophene#2-acetylthiophene#6920#1-thiophen-2-ylethanone#CC(=O)C1=CC=CS1#0#0#101#1#0#0#126.01393598#2#0#8#126.18#126.01393598#1#45.3#0#1.2
+thiazole#thiazole#9256#1,3-thiazole#C1=CSC=N1#0#0#30.1#1#0#0#84.99862027#2#0#5#85.13#84.99862027#0#41.1#0#0.4
+4-methylthiazole#4-methylthiazole#12748#4-methyl-1,3-thiazole#CC1=CSC=N1#0#0#46.8#1#0#0#99.01427034#2#0#6#99.16#99.01427034#0#41.1#0#1
+2-acetylthiazole#2-acetylthiazole#520108#1-(1,3-thiazol-2-yl)ethanone#CC(=O)C1=NC=CS1#0#0#105#1#0#0#127.00918496#3#0#8#127.17#127.00918496#1#58.2#0#1
+2-ethoxythiazole#2-ethoxythiazole#61809#2-ethoxy-1,3-thiazole#CCOC1=NC=CS1#0#0#69.4#1#0#0#129.02483502#3#0#8#129.18#129.02483502#2#50.4#0#1.6
+2-iso-butyl-thiazole#2-iso-butylthiazole#62725#2-(2-methylpropyl)-1,3-thiazole#CC(C)CC1=NC=CS1#0#0#83#1#0#0#141.06122053#2#0#9#141.24#141.06122053#2#41.1#0#2.6
+4,5-dimethylthiazole#4,5-dimethylthiazole#62510#4,5-dimethyl-1,3-thiazole#CC1=C(SC=N1)C#0#0#65.1#1#0#0#113.02992040#2#0#7#113.18#113.02992040#0#41.1#0#1.8
+2,4,5-trimethyl thiazole#2,4,5-trimethyl thiazole#61653#2,4,5-trimethyl-1,3-thiazole#CC1=C(SC(=N1)C)C#0#0#84.6#1#0#0#127.04557046#2#0#8#127.21#127.04557046#0#41.1#0#2.2
+2-acetylpyridine#2-acetylpyridine#14286#1-pyridin-2-ylethanone#CC(=O)C1=CC=CC=N1#0#0#112#1#0#0#121.052763847#2#0#9#121.14#121.052763847#1#30#0#0.9
+methanol#methanol#887#methanol#CO#0#0#2#1#0#0#32.026214747#1#1#2#32.042#32.026214747#0#20.2#0#-0.5
+ethanol#ethanol#702#ethanol#CCO#0#0#2.8#1#0#0#46.041864811#1#1#3#46.07#46.041864811#0#20.2#0#-0.1
+1-butanol#1-butanol#263#butan-1-ol#CCCCO#0#0#13.1#1#0#0#74.073164938#1#1#5#74.12#74.073164938#2#20.2#0#0.9
+1-pentanol#1-pentanol#6276#pentan-1-ol#CCCCCO#0#0#19.9#1#0#0#88.088815002#1#1#6#88.15#88.088815002#3#20.2#0#1.6
+Hexanol#Hexanol#8103#hexan-1-ol#CCCCCCO#0#0#27.4#1#0#0#102.104465066#1#1#7#102.17#102.104465066#4#20.2#0#2
+1-dodecanol#1-dodecanol#8193#dodecan-1-ol#CCCCCCCCCCCCO#0#0#81.2#1#0#0#186.198365449#1#1#13#186.33#186.198365449#10#20.2#0#5.1
+3-methyl-1-butanol#3-methyl-1-butanol#31260#3-methylbutan-1-ol#CC(C)CCO#0#0#25.1#1#0#0#88.088815002#1#1#6#88.15#88.088815002#2#20.2#0#1.2
+2-ethyl-Hexanol#2-ethyl-Hexanol#7720#2-ethylhexan-1-ol#CCCCC(CC)CO#1#0#52.5#1#0#0#130.135765193#1#1#9#130.23#130.135765193#5#20.2#1#3.1
+1-Hexen-3-ol#1-Hexen-3-ol#20928#hex-1-en-3-ol#CCCC(C=C)O#1#0#50.1#1#0#0#100.088815002#1#1#7#100.16#100.088815002#3#20.2#1#1.5
+1-hepten-3-ol#1-hepten-3-ol#21057#hept-1-en-3-ol#CCCCC(C=C)O#1#0#59.4#1#0#0#114.104465066#1#1#8#114.19#114.104465066#4#20.2#1#2
+1-octen-3-ol#1-octen-3-ol#18827#oct-1-en-3-ol#CCCCCC(C=C)O#1#0#69#1#0#0#128.120115130#1#1#9#128.21#128.120115130#5#20.2#1#2.6
+Z2-hexenol#cis-2-Hexen-1-ol#5324489#(Z)-hex-2-en-1-ol#CCC/C=C\CO#0#1#48.1#1#0#1#100.088815002#1#1#7#100.16#100.088815002#3#20.2#0#1.4
+Z3-hexenol#cis-3-Hexen-1-ol#5281167#(Z)-hex-3-en-1-ol#CC/C=C\CCO#0#1#48.1#1#0#1#100.088815002#1#1#7#100.16#100.088815002#3#20.2#0#1.3
+4-methylcyclohexanol#4-methylcyclohexanol#11524#4-methylcyclohexan-1-ol#CC1CCC(CC1)O#0#0#62.8#1#0#0#114.104465066#1#1#8#114.19#114.104465066#0#20.2#0#1.8
+3-methyl-2-cyclohexenol#3-methyl-2-cyclohexenol#89487#3-methylcyclohex-2-en-1-ol#CC1=CC(CCC1)O#1#0#105#1#0#0#112.088815002#1#1#8#112.17#112.088815002#0#20.2#1#0.9
+ethyl formate#ethyl formate#8025#ethyl formate#CCOC=O#0#0#26.1#1#0#0#74.036779430#2#0#5#74.08#74.036779430#2#26.3#0#0.5
+ethyl acetate#ethyl acetate#8857#ethyl acetate#CCOC(=O)C#0#0#49.5#1#0#0#88.052429494#2#0#6#88.11#88.052429494#2#26.3#0#0.7
+propyl acetate#propyl acetate#7997#propyl acetate#CCCOC(=O)C#0#0#59.1#1#0#0#102.068079557#2#0#7#102.13#102.068079557#3#26.3#0#1.2
+pentyl acetate#pentyl acetate#12348#pentyl acetate#CCCCCOC(=O)C#0#0#79#1#0#0#130.099379685#2#0#9#130.18#130.099379685#5#26.3#0#1.9
+isobutyl acetate#isobutyl acetate#8038#2-methylpropyl acetate#CC(C)COC(=O)C#0#0#76.6#1#0#0#116.083729621#2#0#8#116.16#116.083729621#3#26.3#0#1.8
+isopentyl acetate#isopentyl acetate#31276#3-methylbutyl acetate#CC(C)CCOC(=O)C#0#0#86.9#1#0#0#130.099379685#2#0#9#130.18#130.099379685#4#26.3#0#2
+Ethyl propionate#Ethyl propionate#7749#ethyl propanoate#CCC(=O)OCC#0#0#59.1#1#0#0#102.068079557#2#0#7#102.13#102.068079557#3#26.3#0#1.2
+Methyl propionate#Methyl propionate#11124#methyl propanoate#CCC(=O)OC#0#0#49.5#1#0#0#88.052429494#2#0#6#88.11#88.052429494#2#26.3#0#0.8
+Ethyl butyrate#Ethyl butyrate#7762#ethyl butanoate#CCCC(=O)OCC#0#0#68.9#1#0#0#116.083729621#2#0#8#116.16#116.083729621#4#26.3#0#1.3
+ethyl hexanoate#ethyl hexanoate#31265#ethyl hexanoate#CCCCCC(=O)OCC#0#0#89.3#1#0#0#144.115029749#2#0#10#144.21#144.115029749#6#26.3#0#2.4
+methyl octanoate#methyl octanoate#8091#methyl octanoate#CCCCCCCC(=O)OC#0#0#99.7#1#0#0#158.130679813#2#0#11#158.24#158.130679813#7#26.3#0#3.6
+heptane#heptane#8900#heptane#CCCCCCC#0#0#19.2#1#0#0#100.125200510#0#0#7#100.20#100.125200510#4#0#0#4.4
+1-chlorododecane#1-chlorododecane#8192#1-chlorododecane#CCCCCCCCCCCCCl#0#0#81.2#1#0#0#204.1644785#0#0#13#204.78#204.1644785#10#0#0#6.9
+5α-androst-16-one#androstenone#6852393#(5S,8R,9S,10S,13R,14S)-10,13-dimethyl-1,2,4,5,6,7,8,9,11,12,14,15-dodecahydrocyclopenta[a]phenanthren-3-one#C[C@]12CC[C@H]3[C@H]([C@@H]1CC=C2)CC[C@@H]4[C@@]3(CCC(=O)C4)C#6#0#464#1#6#0#272.214015512#1#0#20#272.4#272.214015512#0#17.1#0#4.9
+5α-androsten-3α-ol#androstenol#101989#(3R,5S,8R,9S,10S,13R,14S)-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol#C[C@]12CC[C@H]3[C@H]([C@@H]1CC=C2)CC[C@@H]4[C@@]3(CC[C@H](C4)O)C#7#0#428#1#7#0#274.229665576#1#1#20#274.4#274.229665576#0#20.2#0#5.3
+dihydrogen oxide#dihydrogen oxide#962#oxidane#O#0#0#0#1#0#0#18.010564683#1#1#1#18.015#18.010564683#0#1#0#-0.5
+paraffin oil#delphinidin#68245#2-(3,4,5-trihydroxyphenyl)chromenylium-3,5,7-triol;chloride#C1=C(C=C(C(=C1O)O)O)C2=[O+]C3=CC(=CC(=C3C=C2O)O)O.[Cl-]#0#0#380#2#0#0#338.0193304#7#6#23#338.69#338.0193304#1#122#0#
